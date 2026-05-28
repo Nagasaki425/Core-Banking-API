@@ -36,15 +36,19 @@ O projeto foi construído focando na manutenibilidade e escalabilidade do códig
 **Pré-requisitos:** Java 17+, Maven e Docker instalados.
 
 1. Clone este repositório:
+
    ```bash
+   
    git clone [https://github.com/seu-usuario/core-banking-api.git](https://github.com/seu-usuario/core-banking-api.git)
 
-2. Suba o banco de dados PostgreSQL via Docker:
+3. Suba o banco de dados PostgreSQL via Docker:
+
    ```bash
+   
     docker-compose up -d
 
-3. Compile e execute a aplicação:
-  ```bash
+4. Compile e execute a aplicação:
+    ```bash
    mvn spring-boot:run
 
-A API estará disponível em http://localhost:8080
+6. A API estará disponível em http://localhost:8080
